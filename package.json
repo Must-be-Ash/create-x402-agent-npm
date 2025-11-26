@@ -13,8 +13,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "prepare-template": "node scripts/prepare-template.js",
-    "prepublishOnly": "npm run prepare-template && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "x402",
@@ -32,8 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Must-be-Ash/x402-agent-demo.git",
-    "directory": "create-x402-agent-app"
+    "url": "https://github.com/Must-be-Ash/create-x402-agent-npm.git"
   },
   "homepage": "https://x402-agent.vercel.app",
   "dependencies": {

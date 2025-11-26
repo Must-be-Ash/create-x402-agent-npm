@@ -8,9 +8,37 @@ Give your LLM agents a wallet. Automatically handle x402 micropayments for paid 
 
 ## Quick Start
 
+### Option 1: Use the CLI Installer (Recommended)
+
+Create a new x402 agent app with one command:
+
 ```bash
-npm install @x402-agent/mcp-server
+npx create-x402-agent-app my-agent-app
 ```
+
+This will:
+- Create a new project directory
+- Copy all template files
+- Install dependencies
+- Set up environment variables
+- Initialize git repository
+
+Then:
+```bash
+cd my-agent-app
+# Add your API keys to .env
+npx vercel dev
+```
+
+### Option 2: Clone the Repository
+
+```bash
+git clone https://github.com/Must-be-Ash/x402-agent-demo.git
+cd x402-agent-demo
+npm install
+```
+
+**Note:** The CLI installer (`npx create-x402-agent-app`) gives you a clean starting point with a custom project name, while `git clone` includes the full repository history and development files.
 
 ## Features
 
