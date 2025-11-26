@@ -24,7 +24,7 @@ async function main() {
   console.log(chalk.gray('The missing payment layer for AI agents\n'));
 
   program
-    .name('create-x402-agent-app')
+    .name('x402-agent-app')
     .description('Create a new x402 AI Agent application')
     .argument('[project-name]', 'Name of your project')
     .option('-y, --yes', 'Skip prompts and use defaults')

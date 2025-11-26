@@ -1,10 +1,10 @@
 {
-  "name": "create-x402-agent-app",
+  "name": "x402-agent-app",
   "version": "1.0.0",
   "description": "Create an x402 AI Agent app with one command",
   "type": "module",
   "bin": {
-    "create-x402-agent-app": "./dist/index.js"
+    "x402-agent-app": "./dist/index.js"
   },
   "files": [
     "dist",
