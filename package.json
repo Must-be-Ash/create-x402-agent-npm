@@ -1,0 +1,53 @@
+{
+  "name": "create-x402-agent-app",
+  "version": "1.0.0",
+  "description": "Create an x402 AI Agent app with one command",
+  "type": "module",
+  "bin": {
+    "create-x402-agent-app": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare-template": "node scripts/prepare-template.js",
+    "prepublishOnly": "npm run prepare-template && npm run build"
+  },
+  "keywords": [
+    "x402",
+    "ai-agent",
+    "coinbase",
+    "cdp",
+    "blockchain",
+    "payments",
+    "base",
+    "template",
+    "boilerplate",
+    "cli"
+  ],
+  "author": "Must-be-Ash <https://x.com/must_be_ash>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Must-be-Ash/x402-agent-demo.git",
+    "directory": "create-x402-agent-app"
+  },
+  "homepage": "https://x402-agent.vercel.app",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "@types/prompts": "^2.4.9",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
