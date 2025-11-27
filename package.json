@@ -1,6 +1,6 @@
 {
   "name": "x402-agent-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Create an x402 AI Agent app with one command",
   "type": "module",
   "bin": {
