@@ -1,5 +1,7 @@
 # create-x402-agent-app
 
+> **Outdated, not maintained.** This is an x402 v1 example. x402 v2 has since been released; we recommend updating to v2 ([migration guide](https://docs.x402.org/guides/migration-v1-to-v2)) and updating the Next.js and CDP packages.
+
 Create an x402 AI Agent application with one command.
 
 ## Usage
